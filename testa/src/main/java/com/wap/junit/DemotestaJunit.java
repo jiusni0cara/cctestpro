@@ -62,7 +62,7 @@ public class DemotestaJunit {
 	@Test
 	public void testDel(){
 		try {
-			demotestaService.delete(id);
+			demotestaService.delete(22);
 			System.out.println("---testDel-----------");
 		} catch (Exception e) {
 			e.printStackTrace();
