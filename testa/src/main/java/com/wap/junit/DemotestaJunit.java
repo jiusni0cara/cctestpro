@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.wap.entity.Demotesta;
 import com.wap.page.DemotestaPage;
 import com.wap.service.DemotestaService;
+import com.wap.dao.DemotestaDao;
 
 
 
@@ -62,7 +63,7 @@ public class DemotestaJunit {
 	@Test
 	public void testDel(){
 		try {
-			demotestaService.delete(22);
+			demotestaService.delete(id);
 			System.out.println("---testDel-----------");
 		} catch (Exception e) {
 			e.printStackTrace();

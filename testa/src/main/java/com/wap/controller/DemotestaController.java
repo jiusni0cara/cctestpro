@@ -55,7 +55,7 @@ public class DemotestaController extends BaseAction{
 	@RequestMapping("/list") 
 	public ModelAndView  list(DemotestaPage page,HttpServletRequest request) throws Exception{
 		Map<String,Object>  context = getRootMap();
-		return forword("com.wap//demotesta",context); 
+		return forword("com/wap/demotesta",context); 
 	}
 	
 	
@@ -75,6 +75,11 @@ public class DemotestaController extends BaseAction{
 		jsonMap.put("rows", dataList);
 		HtmlUtil.writerJson(response, jsonMap);
 	}
+
+	public void addmo() {
+		
+	}
+
 	
 	/**
 	 * 添加或修改数据

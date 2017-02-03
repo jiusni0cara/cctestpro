@@ -33,6 +33,6 @@
   			</div>
      	</form>
   	 </div>
-  	 <script type="text/javascript" src="${base}/view/com.wap//page-demotesta.js"></script>
+  	 <script type="text/javascript" src="${base}/pages/com/wap/page-demotesta.js"></script>
   </body>
 </html>

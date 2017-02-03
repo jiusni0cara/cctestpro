@@ -55,7 +55,7 @@ public class ${className}Controller extends BaseAction{
 	@RequestMapping("/list") 
 	public ModelAndView  list(${className}Page page,HttpServletRequest request) throws Exception{
 		Map<String,Object>  context = getRootMap();
-		return forword("${bussPackage}/${entityPackage}/${lowerName}",context); 
+		return forword("${bussPackage}/${lowerName}",context); 
 	}
 	
 	

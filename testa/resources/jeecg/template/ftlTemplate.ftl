@@ -41,6 +41,6 @@
   			</div>
      	</form>
   	 </div>
-  	 <script type="text/javascript" src="${base}/view/${bussPackage}/${entityPackage}/page-${lowerName}.js"></script>
+  	 <script type="text/javascript" src="${base}/view/${bussPackage}/page-${lowerName}.js"></script>
   </body>
 </html>
